@@ -11,6 +11,6 @@ person * 2                              # returns 'midgemidge'
 sentence = greeting + ' ' + person      # returns 'hello there midge'
 len(greeting)                           # returns length of greeting ie 10
 type(greeting)                          # returns type of greeting ie <class 'str'>
-sentence.split(' ')                     # splits sentence wherever there is a space and returns as a list
+sentence.split(' ')                     # splits sentence wherever there is a space and returns as a list nb string.split() with no argument returns the same
 # cannoy split with empty string '', can instead use list(sentence)
 print(list(sentence))
