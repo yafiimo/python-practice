@@ -8,7 +8,7 @@ def new_line_dec(func):
     return wrapper
 
 # the decorator wraps around to your function and is called whenever the
-# function is called executed
+# function is executed
 @new_line_dec
 def print_letter(body):
     print(body)

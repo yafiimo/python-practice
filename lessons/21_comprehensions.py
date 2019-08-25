@@ -8,7 +8,7 @@ for num in nums:
 print(f'\n{"for loop method":30} {doubled_nums}')
 
 doubled_nums = []
-# double numbers in a list using a for loop
+# double numbers in a list using comprehensions
 doubled_nums = [ num * 2 for num in nums ]
 print(f'{"comprehensions method":30} {doubled_nums}')
 
